@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+:root {
+    --Dancing: "Dancing Script", cursive;
+}
+
+h1 {
+    font-family: var(--Dancing)
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+
+
+.card-body img {
+    min-width: 50%;
+    max-height: 200px;
+}
